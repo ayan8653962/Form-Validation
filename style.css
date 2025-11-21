@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* color: white; */
+}
+h1{
+    text-align: center;
+
+}
+form{
+    text-align: center;
+}
+form input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black !important;
+}
+form input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black !important;
+
+}
+.inputname{
+    width: 170px;
+    height: 30px;
+}
+#inputhandel{
+    margin-right: 20px;
+}
+input::placeholder{
+    color: black;
+}
+#maincon{
+    color: black;
+    /* backdrop-filter: blur(3px); */
+}
