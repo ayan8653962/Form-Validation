@@ -16,7 +16,7 @@ function inputhandel(){
     else if(lname.value.length < 3){
         console.log("Enter Correct Name ")
     }
-    else if(emaildata == ""){
+    else if(emaildata.value == ""){
      console.log("Enter Email Adderess")
     }
     else if(!emaildata.value.includes("@")){
