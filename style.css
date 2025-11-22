@@ -28,7 +28,7 @@ form input:focus{
     width: 170px;
     height: 30px;
 }
-#inputhandel{
+#firstname{
     margin-right: 20px;
 }
 input::placeholder{
